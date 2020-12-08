@@ -1,0 +1,8 @@
+src/html/*
+!src/html/.gitkeep
+
+src/wordpress-apache.localhost/*
+!src/wordpress-apache.localhost/.gitkeep
+
+src/elephpants.localhost/*
+!src/elephpants.localhost/.gitkeep

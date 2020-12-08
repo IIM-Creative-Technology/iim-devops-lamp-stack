@@ -19,7 +19,7 @@ services:
     networks:
       - iim-lamp
     volumes:
-      - './src/:/var/www/html'
+      - './src/:/var/www'
   mysql:
     container_name: iim_mysql
     hostname: iim_mysql
@@ -28,6 +28,7 @@ services:
       - '3306:3306'
     environment:
       - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=development
     networks:
       - iim-lamp
 
